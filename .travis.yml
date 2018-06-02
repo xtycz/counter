@@ -2,4 +2,8 @@ language: php
 php:
   - '7.2'
 
-script: phpunit --configuration test/phpunit/phpunit.xml --coverage-text
+install:
+  - composer install
+
+script: 
+  - phpunit --configuration test/phpunit/phpunit.xml --coverage-text
