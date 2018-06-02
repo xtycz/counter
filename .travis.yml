@@ -5,5 +5,6 @@ php:
 install:
   - composer install
 
-script: 
+script:
+  - ant phpstan
   - phpunit --configuration test/phpunit/phpunit.xml --coverage-text
