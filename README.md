@@ -1,6 +1,8 @@
 # counter
 Terminal application for math training
 
+[![Build Status](https://travis-ci.com/xtycz/counter.svg?branch=master)](https://travis-ci.com/xtycz/counter)
+
 ## How to run
 Install application trought composer 
 
